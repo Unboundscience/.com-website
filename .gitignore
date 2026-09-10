@@ -5,3 +5,6 @@ dist
 .env
 .env.local
 vps-config.txt
+
+# Local Netlify folder
+.netlify

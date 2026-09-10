@@ -15,8 +15,10 @@ SCP="scp -o StrictHostKeyChecking=accept-new -P $VPS_PORT"
 echo "=== Deploy Unbound Science ==="
 
 # Step 1: Build
+# This VPS serves the site from /mockup-unbound/, so the asset base path has to
+# match that subdirectory (Netlify builds default to the domain root instead).
 echo "[1/3] Building..."
-npm run build
+BASE_PATH="/mockup-unbound/" npm run build
 
 # Step 2: Upload dos arquivos
 echo "[2/3] Enviando arquivos..."

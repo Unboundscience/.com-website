@@ -28,7 +28,7 @@ export function Navbar() {
           <a href="#how">How it Works</a>
           <a href="#focus">Areas</a>
           <a href="#stats">Community</a>
-          <a href="https://alpha.unboundscience.io" className={styles.cta}>
+          <a href="https://demo.unboundscience.io" className={styles.cta}>
             Launch App
           </a>
         </div>
@@ -57,7 +57,7 @@ export function Navbar() {
         <a href="#how" onClick={closeMobileMenu}>How it Works</a>
         <a href="#focus" onClick={closeMobileMenu}>Areas</a>
         <a href="#stats" onClick={closeMobileMenu}>Community</a>
-        <a href="https://alpha.unboundscience.io" className={styles.cta}>
+        <a href="https://demo.unboundscience.io" className={styles.cta}>
           Launch App
         </a>
       </div>
