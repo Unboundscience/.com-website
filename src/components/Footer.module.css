@@ -21,18 +21,9 @@
 }
 
 .logo {
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--text-primary);
-}
-
-.logo span {
-  color: var(--accent);
-}
-
-.name {
-  font-size: 14px;
-  color: var(--text-muted);
+  height: 64px;
+  width: auto;
+  display: block;
 }
 
 .links {

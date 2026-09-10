@@ -1,14 +1,13 @@
 import styles from './Footer.module.css'
 
+const LOGO_SRC = `${import.meta.env.BASE_URL || '/'}logo.png`
+
 export function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.content}>
         <div className={styles.brand}>
-          <span className={styles.logo}>
-            U<span>n</span>
-          </span>
-          <span className={styles.name}>Unbound Science</span>
+          <img className={styles.logo} src={LOGO_SRC} alt="Unbound Science" />
         </div>
         <div className={styles.links}>
           <a href="#problem">Mission</a>

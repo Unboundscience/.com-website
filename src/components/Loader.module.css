@@ -17,16 +17,15 @@
 }
 
 .logo {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 72px;
-  font-weight: 700;
-  color: #ffffff;
+  display: flex;
+  justify-content: center;
   margin-bottom: 40px;
-  letter-spacing: -0.02em;
 }
 
-.accent {
-  color: var(--accent);
+.logo img {
+  width: 180px;
+  height: auto;
+  display: block;
 }
 
 .progressBar {

@@ -23,7 +23,6 @@ export function Stats() {
   const stats = [
     { target: 4000, suffix: '+', label: 'Community Members' },
     { target: 1500, suffix: '+', label: 'Scientists Identified' },
-    { target: 8.67, prefix: '$', suffix: 'T', label: 'Combined TAM', isDecimal: true },
     { target: 'Alpha Live', label: 'Platform Status', isText: true },
   ]
 
