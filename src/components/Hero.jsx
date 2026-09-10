@@ -25,10 +25,10 @@ export function Hero() {
             The first platform where inventors fund, protect, and distribute breakthrough technology — without gatekeepers.
           </p>
           <div className={styles.buttons}>
-            <a href="https://alpha.unboundscience.io" className={styles.btnSecondary}>
+            <a href="https://demo.unboundscience.io" className={styles.btnSecondary}>
               I'm a Scientist
             </a>
-            <a href="https://alpha.unboundscience.io" className={styles.btnPrimary}>
+            <a href="https://demo.unboundscience.io" className={styles.btnPrimary}>
               I'm a Donor
             </a>
           </div>

@@ -9,7 +9,7 @@ export function CTA() {
         <p className={styles.subtitle}>
           Join the movement to create an uncensorable repository of human knowledge.
         </p>
-        <a href="https://alpha.unboundscience.io" className={styles.btn}>
+        <a href="https://demo.unboundscience.io" className={styles.btn}>
           Get Started
         </a>
         <div className={styles.socialLinks}>

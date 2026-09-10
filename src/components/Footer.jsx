@@ -13,7 +13,7 @@ export function Footer() {
         <div className={styles.links}>
           <a href="#problem">Mission</a>
           <a href="#how">Team</a>
-          <a href="https://alpha.unboundscience.io">Alpha</a>
+          <a href="https://demo.unboundscience.io">Demo</a>
           <a href="https://twitter.com/unboundscience" target="_blank" rel="noopener noreferrer">
             Twitter
           </a>
