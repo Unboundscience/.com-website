@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import styles from './Navbar.module.css'
 
+const LOGO_SRC = `${import.meta.env.BASE_URL || '/'}logo.png`
+
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -20,7 +22,7 @@ export function Navbar() {
     <>
       <nav className={`${styles.navbar} ${isScrolled ? styles.scrolled : ''}`}>
         <a href="#" className={styles.logo}>
-          U<span>n</span>
+          <img src={LOGO_SRC} alt="Unbound Science" />
         </a>
 
         <div className={styles.links}>

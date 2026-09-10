@@ -18,14 +18,14 @@
 }
 
 .logo {
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--text-primary);
-  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
 }
 
-.logo span {
-  color: var(--accent);
+.logo img {
+  height: 48px;
+  width: auto;
+  display: block;
 }
 
 .links {
@@ -121,5 +121,9 @@
   .navbar {
     top: 0;
     padding: 16px 24px;
+  }
+
+  .logo img {
+    height: 40px;
   }
 }

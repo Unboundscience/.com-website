@@ -51,13 +51,6 @@
 .cardTitle {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 8px;
-}
-
-.cardTam {
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--accent);
   margin-bottom: 12px;
 }
 

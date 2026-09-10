@@ -5,30 +5,26 @@ const areas = [
   {
     icon: '🔥',
     title: 'Clean Energy',
-    tam: '$1.2T TAM',
     desc: 'Next-generation fusion, solar, and battery technologies to power humanity sustainably.',
   },
   {
     icon: '💧',
     title: 'Air, Water & Soil',
-    tam: '$25B TAM',
     desc: 'Purification systems, regenerative agriculture, and atmospheric restoration.',
   },
   {
     icon: '♻️',
     title: 'Waste Management',
-    tam: '$540B TAM',
-    desc: 'Circular economy solutions, plastic degradation, and zero-waste systems.',
+    desc: 'Cleaning up river and ocean pollution, then processing garbage into rare-earth minerals through nano-fabrication.',
   },
   {
     icon: '⚛️',
     title: 'Quantum Technology',
-    tam: '$106B TAM',
-    desc: 'Quantum computing, cryptography, and sensing for the next computing paradigm.',
+    desc: 'Quantum biology, resonance diagnostics, and frequency-based therapies to restore human health.',
   },
 ]
 
-function FocusCard({ icon, title, tam, desc, delay }) {
+function FocusCard({ icon, title, desc, delay }) {
   const [ref, isInView] = useInView({ once: true, threshold: 0.2 })
 
   return (
@@ -39,7 +35,6 @@ function FocusCard({ icon, title, tam, desc, delay }) {
     >
       <div className={styles.cardIcon}>{icon}</div>
       <h3 className={styles.cardTitle}>{title}</h3>
-      <div className={styles.cardTam}>{tam}</div>
       <p className={styles.cardDesc}>{desc}</p>
     </div>
   )
